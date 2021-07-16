@@ -29,14 +29,12 @@ class Startup
         $app->UseExceptionHandler();
 
         $app->useRouter();
-        
-        $app->useEndpoint(function($routes)
-        {
-            $routes->mapGet("/", function(HttpContext $context) : Task
-            {
-               $context->Response->Body->write("Hello World!");
-               return Task::completedTask();
+
+        $app->useEndpoint(function ($routes) {
+            $routes->mapGet("/", function (HttpContext $context): Task {
+                $context->Response->Body->write("Hello World!");
+                return Task::completedTask();
             });
-         });
+        });
     }
 }
