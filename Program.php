@@ -2,10 +2,10 @@
 
 namespace Application;
 
-use DevNet\Core\Extensions\ApplicationBuilderExtensions;
-use DevNet\Core\Extensions\ServiceCollectionExtensions;
-use DevNet\Core\Hosting\WebHost;
-use DevNet\Core\Http\HttpContext;
+use DevNet\Web\Extensions\ApplicationBuilderExtensions;
+use DevNet\Web\Extensions\ServiceCollectionExtensions;
+use DevNet\Web\Hosting\WebHost;
+use DevNet\Web\Http\HttpContext;
 use DevNet\System\Async\Task;
 
 class Program

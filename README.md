@@ -1,18 +1,18 @@
 # DevNet Web Application Template
-This package is a basic web application template of DevNet Framewark.
+This package is a minimal web API template of DevNet Framework, which is suitable for building microservices.
 
 ## Requirements
 - PHP 7.4 or higher version from [php.net](https://www.php.net/)
 - Composer the dependency manager from [getcomposer.org](https://getcomposer.org/)
 
 ## Installation
-To create DevNet MVC Web Application, run the following command in your terminal:
+To create a DevNet minimal Web API project using composer, run the following command in your terminal:
 ```
-composer create-project devnet/web YourProjectName
+composer create-project devnet/web-template [project-Name]
 ```
 Or using DevNet CLI
 ```
-devnet new web --project YourProjectName
+devnet new web --project [project-Name]
 ```
 
 ## Documentation
