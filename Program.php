@@ -6,7 +6,6 @@ use DevNet\Web\Extensions\ApplicationBuilderExtensions;
 use DevNet\Web\Extensions\ServiceCollectionExtensions;
 use DevNet\Web\Hosting\WebHost;
 use DevNet\Web\Http\HttpContext;
-use DevNet\System\Async\Task;
 
 class Program
 {
@@ -31,7 +30,7 @@ class Program
             $app->useRouter();
             // middlewares
             $app->useEndpoint(function ($routes) {
-                $routes->mapGet("/", fn (HttpContext $context): Task => $context->Response->writeAsync("Hello World!"));
+                $routes->mapGet("/", fn (HttpContext $context) => $context->Response->writeAsync("Hello World!"));
             });
         });
     }
