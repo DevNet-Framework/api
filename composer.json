@@ -1,12 +1,8 @@
 {
     "name": "devnet/web-template",
     "description": "DevNet Web Application (Minimal APIs)",
-    "type": "devnet-template",
+    "type": "devnet-project",
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "php": ">=7.4.0",
-        "devnet/web": "1.0.*"
-    }
+    "prefer-stable": true
 }
