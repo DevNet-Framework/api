@@ -1,7 +1,7 @@
 {
     "name": "devnet/web-template",
-    "description": "DevNet Web Application (Minimal APIs)",
-    "type": "devnet-project",
+    "description": "Web Application",
+    "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true
