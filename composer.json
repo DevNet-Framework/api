@@ -1,8 +1,11 @@
 {
-    "name": "devnet/web-template",
+    "name": "devnet/web",
     "description": "Web Application",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "devnet/core": "1.1.*"
+    }
 }
